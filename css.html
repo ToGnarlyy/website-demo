@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Learn CSS</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="html.html">HTML</a>
+      <a href="js.html">JavaScript</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>What is CSS?</h2>
+      <p>CSS (Cascading Style Sheets) is used to style the appearance of your webpage. It controls the layout, colors, fonts, and overall look and feel of the page.</p>
+    </section>
+
+    <section>
+      <h2>CSS Syntax</h2>
+      <p>CSS is written as a set of rules, each consisting of a selector and a declaration block:</p>
+      <pre><code>selector {
+  property: value;
+}</code></pre>
+      <h3>Example:</h3>
+      <pre><code>h1 {
+  color: red;
+  text-align: center;
+}</code></pre>
+      <p>This would make all <code>&lt;h1&gt;</code> elements red and center the text.</p>
+    </section>
+
+    <section>
+      <h2>CSS Box Model</h2>
+      <p>The box model defines the layout of an element, including its padding, borders, and margins. Here’s a breakdown:</p>
+      <ul>
+        <li><strong>Content:</strong> The actual content inside the element, such as text or images.</li>
+        <li><strong>Padding:</strong> Space between the content and the border.</li>
+        <li><strong>Border:</strong> Surrounds the element's content and padding.</li>
+        <li><strong>Margin:</strong> Space outside the border, separating it from other elements.</li>
+      </ul>
+      <h3>Visualizing the Box Model:</h3>
+      <pre><code>div {
+  margin: 20px;
+  padding: 10px;
+  border: 5px solid black;
+}</code></pre>
+      <p>This will add 20px of margin around the element, 10px of padding inside the element, and a 5px solid black border.</p>
+    </section>
+
+    <section>
+      <h2>Advanced Layout with Flexbox and Grid</h2>
+      <h3>Flexbox</h3>
+      <p>Flexbox is a layout model that helps you design responsive layouts with ease. It gives you more control over the alignment and distribution of elements inside a container.</p>
+      <pre><code>div {
+  display: flex;
+  justify-content: space-between;
+}</code></pre>
+      <p>This will space the child elements evenly within the parent <code>&lt;div&gt;</code>.</p>
+
+      <h3>Grid</h3>
+      <p>CSS Grid Layout is a powerful system for creating complex layouts with rows and columns.</p>
+      <pre><code>div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}</code></pre>
+      <p>This creates a three-column grid layout with equal-width columns.</p>
+    </section>
+
+    <section>
+      <h2>Practice Challenge</h2>
+      <p>Now that you've learned about CSS layout techniques, try creating a grid layout for a webpage with:</p>
+      <ul>
+        <li>A header</li>
+        <li>A main content area with multiple columns</li>
+        <li>A footer</li>
+      </ul>
+      <p>Use Flexbox or Grid to structure your page!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by liz0 dev</p>
+  </footer>
+</body>
+</html>

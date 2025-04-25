@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn HTML</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Learn HTML</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="css.html">CSS</a>
+      <a href="js.html">JavaScript</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>What is HTML?</h2>
+      <p>HTML (HyperText Markup Language) is the language used to create the structure of a webpage. Think of it as the skeleton of a website. It organizes content like text, images, links, and forms into a readable format.</p>
+      <h3>Basic HTML Document Structure</h3>
+      <p>Every HTML document follows a basic structure. Here's how it looks:</p>
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Webpage&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+      <p>Let's break it down:</p>
+      <ul>
+        <li><code>&lt;!DOCTYPE html&gt;</code>: Declares the document as an HTML5 document.</li>
+        <li><code>&lt;html&gt;</code>: The root element that wraps the entire document.</li>
+        <li><code>&lt;head&gt;</code>: Contains meta-information about the page, like the title and external stylesheets.</li>
+        <li><code>&lt;body&gt;</code>: The main content of the webpage.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>HTML Tags</h2>
+      <p>HTML elements are created using tags. These tags help define the structure and layout of the content.</p>
+      <h3>Common Tags:</h3>
+      <ul>
+        <li><strong>&lt;h1&gt; - &lt;h6&gt;:</strong> Headings from largest to smallest (h1 being the main title).</li>
+        <li><strong>&lt;p&gt;:</strong> Paragraphs, used to define blocks of text.</li>
+        <li><strong>&lt;a&gt;:</strong> Links to other webpages or resources.</li>
+        <li><strong>&lt;img&gt;:</strong> Display images.</li>
+        <li><strong>&lt;ul&gt;, &lt;ol&gt;:</strong> Unordered (bulleted) and ordered (numbered) lists, respectively.</li>
+      </ul>
+      <h3>Example:</h3>
+      <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;</code></pre>
+      <p>Here we create a link using the anchor tag <code>&lt;a&gt;</code> with the <code>href</code> attribute specifying the URL.</p>
+    </section>
+
+    <section>
+      <h2>HTML Attributes</h2>
+      <p>Attributes provide additional information about elements. They are added inside the opening tag of an element.</p>
+      <h3>Common Attributes:</h3>
+      <ul>
+        <li><strong>href:</strong> The URL of the link.</li>
+        <li><strong>src:</strong> The source of an image or media file.</li>
+        <li><strong>alt:</strong> Provides alternative text for images.</li>
+        <li><strong>id:</strong> A unique identifier for an element.</li>
+        <li><strong>class:</strong> A class name to apply styles to multiple elements.</li>
+      </ul>
+      <p>Example of an image tag:</p>
+      <pre><code>&lt;img src="image.jpg" alt="A beautiful view"&gt;</code></pre>
+    </section>
+
+    <section>
+      <h2>Practice Challenge</h2>
+      <p>Now, try creating a webpage with:</p>
+      <ul>
+        <li>A heading (<code>&lt;h1&gt;</code>)</li>
+        <li>A paragraph of text (<code>&lt;p&gt;</code>)</li>
+        <li>A list (<code>&lt;ul&gt;</code>)</li>
+        <li>A link to your favorite website (<code>&lt;a&gt;</code>)</li>
+      </ul>
+      <p>Use the tags you've just learned about to create your content!</p>
+    </section>
+  </main>
+
+  <section>
+    <h2>Sample og an audio player</h2>
+    <audio controls>
+      <source src="Fimiguerrero - Mandy (Official Video).mp3" type="audio/mp3">
+      Your browser does not support the audio element.
+    </audio>
+    <section>
+        <section>
+            <h2>Practice Challenge: Adding Audio to a Webpage</h2>
+            <p>Now, let's create a webpage with audio! Follow the steps below to get started:</p>
+            <ul>
+              <li>A heading (<code>&lt;h1&gt;</code>) that introduces your webpage</li>
+              <li>A paragraph (<code>&lt;p&gt;</code>) explaining what the audio is about</li>
+              <li>A list (<code>&lt;ul&gt;</code>) of instructions for using the audio player</li>
+              <li>A link (<code>&lt;a&gt;</code>) to your favorite music or a page related to the audio</li>
+              <li>An audio player (<code>&lt;audio&gt;</code>) that allows users to play a sound or song</li>
+            </ul>
+            
+            <p>Here's an example of how you can add an audio player:</p>
+            
+            <pre><code>&lt;audio controls&gt;
+              &lt;source src="your-audio-file.mp3" type="audio/mp3"&gt;
+              Your browser does not support the audio element.
+            &lt;/audio&gt;</code></pre>
+          
+            <p>Explanation:</p>
+            <ul>
+              <li>The <code>&lt;audio&gt;</code> element is used to embed sound content.</li>
+              <li>The <code>controls</code> attribute adds play, pause, and volume controls to the audio player.</li>
+              <li>The <code>&lt;source&gt;</code> element specifies the path to the audio file and the format of the file (MP3 in this case).</li>
+              <li>If the browser doesn't support the <code>&lt;audio&gt;</code> element, the text inside the element ("Your browser does not support the audio element.") will be displayed instead.</li>
+            </ul>
+            
+            <p>Now, try the challenge! Create a webpage with the following:</p>
+            <ul>
+              <li>A heading with the title of your audio content</li>
+              <li>A paragraph explaining the audio (e.g., what it's about or where it's from)</li>
+              <li>A list of features or instructions for the audio (e.g., "Click play to listen!")</li>
+              <li>An audio player with a file that you want to play (make sure you have a valid audio file like MP3 or OGG)</li>
+              <li>A link to a music website or another audio file</li>
+            </ul>
+            
+            <p>Once you're done, your webpage should look something like this:</p>
+            
+            <pre><code>&lt;html&gt;
+            &lt;head&gt;
+              &lt;title&gt;My Audio Page&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+              &lt;h1&gt;Listen to My Favorite Song&lt;/h1&gt;
+              &lt;p&gt;This is a song I really enjoy. Press play to listen!&lt;/p&gt;
+              &lt;ul&gt;
+                &lt;li&gt;Click the play button to start the song&lt;/li&gt;
+                &lt;li&gt;Pause anytime to stop&lt;/li&gt;
+              &lt;/ul&gt;
+              &lt;audio controls&gt;
+                &lt;source src="path-to-your-audio-file.mp3" type="audio/mp3"&gt;
+                Your browser does not support the audio element.
+              &lt;/audio&gt;
+              &lt;a href="https://www.example.com"&gt;Visit my favorite music site&lt;/a&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;</code></pre>
+            
+            <p>Try modifying this example to use your own audio file and customize the content!</p>
+          </section>
+  </section>
+  
+
+  <footer>
+    <p>Made by liz0 dev</p>
+  </footer>
+</body>
+</html>

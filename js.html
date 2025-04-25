@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Learn JavaScript</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="html.html">HTML</a>
+      <a href="css.html">CSS</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>What is JavaScript?</h2>
+      <p>JavaScript is a programming language that enables interactive web features, such as dynamic content updates, form validation, animations, and more. It runs in the user's browser, which means it can directly manipulate HTML and CSS to create dynamic experiences.</p>
+    </section>
+
+    <section>
+      <h2>Variables and Data Types</h2>
+      <p>Variables hold data that can be used in your program. JavaScript supports several data types:</p>
+      <ul>
+        <li><strong>String:</strong> A sequence of characters, wrapped in quotes.</li>
+        <li><strong>Number:</strong> Integer or floating-point numbers.</li>
+        <li><strong>Boolean:</strong> A value of true or false.</li>
+        <li><strong>Object:</strong> A collection of key-value pairs.</li>
+        <li><strong>Array:</strong> A list of values.</li>
+      </ul>
+      <p>Example:</p>
+      <pre><code>let name = "John";
+let age = 30;
+let isStudent = true;</code></pre>
+    </section>
+
+    <section>
+      <h2>Functions</h2>
+      <p>Functions are reusable blocks of code that can be called whenever needed. Functions can also accept inputs (parameters) and return outputs (values).</p>
+      <pre><code>function greet(name) {
+  return "Hello, " + name + "!";
+}
+
+let message = greet("Alice");
+console.log(message);  // Output: "Hello, Alice!"</code></pre>
+    </section>
+
+    <section>
+      <h2>DOM Manipulation</h2>
+      <p>The DOM (Document Object Model) represents the structure of your webpage in a way that JavaScript can interact with. JavaScript allows you to change the content, structure, and style of your page by manipulating the DOM.</p>
+      <h3>Example:</h3>
+      <pre><code>document.getElementById("myButton").addEventListener("click", function() {
+  alert("Button clicked!");
+});</code></pre>
+      <p>This code listens for a click event on a button and shows an alert message when the button is clicked.</p>
+    </section>
+
+    <section>
+      <h2>Control Flow: Loops and Conditionals</h2>
+      <p>JavaScript allows you to control the flow of your program with loops and conditional statements:</p>
+      <h3>Conditionals:</h3>
+      <pre><code>if (age >= 18) {
+  console.log("Adult");
+} else {
+  console.log("Minor");
+}</code></pre>
+
+      <h3>Loops:</h3>
+      <pre><code>for (let i = 0; i < 5; i++) {
+  console.log(i);
+}</code></pre>
+    </section>
+
+    <section>
+      <h2>Practice Challenge</h2>
+      <p>Write a JavaScript function that takes a number as input and returns whether it's even or odd. Then, use this function to display a message in the console based on the result.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by liz0 dev</p>
+  </footer>
+</body>
+</html>
